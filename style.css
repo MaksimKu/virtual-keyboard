@@ -1,0 +1,102 @@
+.wrapper {
+    background-color: brown;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+.keyWrap {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 3px;
+}
+textarea {
+    width: 100%;
+    max-width: 790px;
+    height: 120px;
+}
+
+.keyRows1 {
+    display: flex;
+    gap: 3px;
+}
+.keyRows2 {
+    display: flex;
+    gap: 3px;
+}
+.keyRows3 {
+    display: flex;
+    gap: 3px;
+}
+.keyRows4 {
+    display: flex;
+    gap: 3px;
+}
+.keyRows5 {
+    display: flex;
+    gap: 3px;
+}
+.eng, .eng_up,.eng_caps, .eng_caps_shift {
+    display: none;
+   
+}
+
+
+/* .eng_caps_shift {
+    position: relative;
+    display: block;
+    top: 17px;
+} */
+
+.ru, .ru_up, .ru_caps, .ru_caps_shift {
+    display: none;
+}
+
+.hidden {
+    display: block;
+    position: relative;
+    top: 17px;
+}
+.key {
+    font-weight: 500;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
+.key:hover {
+    background-color: aquamarine;
+}
+
+.keyInnerBackspace {
+    width: 105px;
+}
+.keyEnter {
+    width: 105px;
+}
+.keyCapsLock {
+    width: 103px;
+}
+.keyShift {
+    width: 103px;
+}
+.keyShiftR {
+    width: 105px;
+}
+.keyDel {
+    width: 52px;
+}
+.keySpace {
+    width: 368px;
+}
+.keyCtrlR {
+    width: 52px;
+}
+
+.klickkey {
+    background-color: aquamarine;
+    border-radius: 30px;
+}
